@@ -1,0 +1,446 @@
+/* ここから下に記載していく */
+
+body{
+    width: 1200px;
+    margin: 0 auto;
+    background: url(https://wantopia.net/dog/wp-content/uploads/2025/02/4397d0bd3f4c9dbcd9306a2b73f4b341.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: contain;
+    background-color: rgba(255,255,255,0.7);
+    background-blend-mode: overlay;
+}
+
+header{
+    display: flex;
+}
+
+section{
+    padding-top: 60px;
+}
+
+h1{
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.yellow{
+    color: #ffd61a;
+}
+
+.black{
+    color: #222222;
+}
+
+h2{
+    font-size: 18px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.header_img{
+    margin-top: 25px;
+}
+
+/* .header_content{
+    display: flex;
+    gap: 50px;
+    margin: 50px auto;
+    font-size: 21px;
+    /* position: fixed;
+    width: 100%; */
+    /* right: 50px; */
+
+
+nav{
+    display: flex;
+    gap: 50px;
+    margin: 50px auto;
+    font-size: 21px;
+    position: fixed;
+    left: calc(48%);
+}
+
+.main{
+    background: url(../img/mainbg.png);
+    /* background-size: contain; */
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255,255,255,0.1);
+    background-blend-mode: overlay;
+    /* background-repeat: no-repeat; */
+    height: 300px;
+    /* height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main1{
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #fafafa;
+}
+
+.main2{
+    font-size: 32px;
+    color: #fafafa;
+}
+
+
+/* about */
+
+.about{
+    width: 660px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.about_text{
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+
+@keyframes infinity-scroll-left {
+    from {
+    transform: translateX(0);
+}
+to {
+    transform: translateX(-100%);
+}
+}
+
+.scroll-infinity__wrap {
+    display: flex;
+    overflow: hidden;
+}
+
+.scroll-infinity__list {
+    display: flex;
+    list-style: none;
+    padding: 0
+}
+
+.scroll-infinity__list--left {
+    animation: infinity-scroll-left 80s infinite linear 0.5s both;
+}
+.scroll-infinity__item {
+    width: calc(120vw / 6);
+}
+.scroll-infinity__item>img {
+    width: 100%;
+}
+
+.scroll-infinity__wrap:hover .scroll-infinity__list--left{
+    animation-play-state: paused;
+}
+
+
+/* course */
+
+.course{
+    margin-left: auto;
+    margin-right: auto;
+    width: 48%;
+}
+
+.course_box{
+    display: flex;
+    background-color: #fafafa;
+}
+
+.course_box_img{
+    width: 50%;
+}
+
+.course_box_card{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: auto 0;
+    width: 50%;
+}
+
+.course_box_img_img{
+    width: 100%;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.course_card_content{
+    width: 430px;
+}
+
+.card_right{
+    margin-left: 50px;
+}
+
+.card_left{
+    margin-right: 50px;
+    margin-left: 120px;
+}
+
+.course_content_text{
+    font-size: 16px;
+    text-align: left;
+}
+
+
+/* news */
+
+.news_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.news_box_card{
+    width: 300px;
+    margin: 0 15px;
+}
+
+.news_card_content{
+    width: 100%;
+}
+
+.news_card_img:hover{
+	transform:scale(1.1);
+	transition:0.3s;
+}
+
+.news_content_text{
+    margin-top: 30px;
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.news_content_text2{
+    text-align: left;
+    font-size: 14px;
+}
+
+.c-btn{
+    cursor: pointer;
+    transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+    background: #ffd61a;
+    border: 2px solid #ffd61a;
+    border-radius: 60px;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.c-btn:hover {
+    background: #fff;
+    color: #ffd61a;
+}
+
+
+/* access */
+.bg_glay{
+    background-color: #fafafa;
+}
+
+.access_box{
+    margin: 45px auto;
+    width: 50%;
+    margin-left: 400px;
+}
+
+.access_box_content{
+    margin: 15px 0;
+    height: 50px;
+    display: flex;    
+}
+
+.access_content_text1{
+    width: 250px;
+    text-align: left;
+}
+
+.access_content_text2{
+    width: 700px;
+    text-align: left;
+}
+
+.access_content_p{
+    text-align: center;
+}
+
+.goole_map{
+    width: 1200px;
+}
+
+
+/* contact */
+
+.contact{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_title{
+    /* width: 420px; */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* h7以降は反映されないのか */
+
+/* .conact_form{
+    width: 700px;
+} */
+
+.contact_table{
+    width: 640px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.contact_item,
+.contact_body{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+}
+
+.contact_item{
+    text-align: left;
+    width: 240px;
+    padding: auto 0;
+    padding-left: 16px;
+    padding-right: 64px;
+    border-right: 1px solid #ccc;
+}
+
+.contact_body{
+    width: 400px;
+    /* padding: 36px; */
+}
+
+input[type="text"],
+input[type="email"],
+span,
+select,
+textarea{
+    width: 328px;
+    height: 36px;
+}
+
+.th_select{
+    text-align: left;
+    vertical-align: middle;
+}
+
+.reason{
+    height: 200px;
+    /* padding-top: 15px; */
+}
+
+.span{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 200px;
+}
+
+.textarea{
+    height: 120px;
+    vertical-align: top;
+}
+textarea{
+    height: 120px;
+}
+
+
+.contact_submit{
+    cursor: pointer;
+    transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 180px;
+    background: #ffd61a;
+    border: 2px solid #ffd61a;
+    border-radius: 60px;
+    color: #fff;
+}
+
+.contact_submit:hover {
+    background: #fff;
+    color: #ffd61a;
+}
+
+.after_submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 42px;
+    color: green;
+    font-weight: bold;
+    height: 600px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDuljT17uYxJaCr6ubMQUc0q54YO-TOmjPDQ&s);
+    background-size:47%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+
+.after_submit:hover {
+    animation: 2s fadeup ease-in-out forwards;
+}
+
+@keyframes fadeup {
+    0% {
+    opacity: 0;
+    transform: translateY(30px);
+    }
+
+    100% {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}    
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #707070;
+}
+
+.footer_text{
+    margin: 30px 0;
+    color: #fafafa;
+}
